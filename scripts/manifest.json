@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "aspect": "16:9",
+    "mode": "keyframe",
+    "note": "首帧模式：ImageGen 出卡通首帧，Agnes 照着动"
+  },
+  "shots": [
+    {
+      "idx": "1-1",
+      "seconds": 4,
+      "first_frame_prompt": "特写镜头：都市清晨街面上形形色色的通勤人群步伐，只拍腿和鞋，不同款式运动鞋踩在湿漉漉的地面，水花飞溅。自然晨光，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，背景柔和虚化。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：几双卡通运动鞋交替迈步踩在湿地面上，溅起水花，裤腿随走动摆动。镜头低位固定，微微手持晃动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/1-1.jpg",
+      "prompt": "画面中：几双卡通运动鞋交替迈步踩在湿地面上，溅起水花，裤腿随走动摆动。镜头低位固定，微微手持晃动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/1-1.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "1-3a",
+      "seconds": 4,
+      "first_frame_prompt": "大学教学楼走廊内景，学生抱着书本匆匆走过，窗外阳光斜射进来打在地板上。暖色调，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，生活气息。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：学生抱着书本快步走过走廊，书页和衣角轻轻晃动，窗外光斑缓缓移动。镜头沿走廊缓慢横移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/1-3a.jpg",
+      "prompt": "画面中：学生抱着书本快步走过走廊，书页和衣角轻轻晃动，窗外光斑缓缓移动。镜头沿走廊缓慢横移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/1-3a.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "1-3b",
+      "seconds": 4,
+      "first_frame_prompt": "大学食堂打饭窗口排队场景，热气腾腾的饭菜陈列在不锈钢托盘里，暖黄色灯光。3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，烟火气。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：打饭队伍缓慢前移，餐盘上热气蒸腾上升，窗口灯光微微闪动。镜头从队伍后方缓慢推近到餐盘。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/1-3b.jpg",
+      "prompt": "画面中：打饭队伍缓慢前移，餐盘上热气蒸腾上升，窗口灯光微微闪动。镜头从队伍后方缓慢推近到餐盘。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/1-3b.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "1-3c",
+      "seconds": 4,
+      "first_frame_prompt": "大学图书馆自习区，安静明亮，靠窗位置洒进阳光，几名学生低头看书。暖色调，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，宁静氛围。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：学生翻动书页，笔尖在纸上移动，阳光里细小尘埃缓缓浮动。镜头缓慢横摇扫过桌面。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/1-3c.jpg",
+      "prompt": "画面中：学生翻动书页，笔尖在纸上移动，阳光里细小尘埃缓缓浮动。镜头缓慢横摇扫过桌面。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/1-3c.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "2-1",
+      "seconds": 6,
+      "first_frame_prompt": "重庆山城梯道航拍全景，层层叠叠的台阶从高处蜿蜒向下，两旁是错落的城市建筑和绿植，远处可见长江江面。阴天散射光，3D卡通动画风格，立体卡通渲染，鸟瞰构图，宏大开阔。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：云影缓缓掠过层层台阶，树梢沙沙晃动，远处江面波光闪动。镜头缓慢下降推近。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/2-1.jpg",
+      "prompt": "画面中：云影缓缓掠过层层台阶，树梢沙沙晃动，远处江面波光闪动。镜头缓慢下降推近。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/2-1.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "2-3",
+      "seconds": 10,
+      "first_frame_prompt": "第一人称视角在重庆山城步道上行走，镜头随步伐轻微上下晃动，两侧是斑驳的旧居民楼和爬藤植物，转角处挂满晾晒的衣物。午后斜阳，手持行走视角，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：脚步上下起伏带动画面轻微晃动，两侧晾晒的衣物被风轻摆，爬藤随之摇动。镜头随步伐轻微上下晃动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/2-3.jpg",
+      "prompt": "画面中：脚步上下起伏带动画面轻微晃动，两侧晾晒的衣物被风轻摆，爬藤随之摇动。镜头随步伐轻微上下晃动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/2-3.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "2-4",
+      "seconds": 12,
+      "first_frame_prompt": "仰拍视角向上看一段长陡石阶，镜头随登阶节奏一级级向上移动，两侧是青石栏杆和成荫的树木，阳光从树叶缝隙洒下斑驳光影。3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，节奏感强。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：树叶在风中摇动，光斑随之晃动，明暗交替。镜头随登阶节奏一级级向上移动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/2-4.jpg",
+      "prompt": "画面中：树叶在风中摇动，光斑随之晃动，明暗交替。镜头随登阶节奏一级级向上移动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/2-4.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "3-2",
+      "seconds": 10,
+      "first_frame_prompt": "大学女生宿舍门口，手推开木门走出去，脚步迈出。清晨柔和光线，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：木门被缓缓推开，脚步迈出，门口帘子轻轻晃了一下。镜头在门外固定，略带仰角。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-2.jpg",
+      "prompt": "画面中：木门被缓缓推开，脚步迈出，门口帘子轻轻晃了一下。镜头在门外固定，略带仰角。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/3-2.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "3-3a",
+      "seconds": 4,
+      "first_frame_prompt": "重庆老街小巷，青石板路，两旁是充满烟火气的小店铺，招牌林立，头顶横跨晾衣绳挂着衣服。午后暖光，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：晾衣绳上的衣服被风吹动，小店灯笼轻晃，路上行人缓缓走过。镜头沿街道缓慢向前跟拍。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-3a.jpg",
+      "prompt": "画面中：晾衣绳上的衣服被风吹动，小店灯笼轻晃，路上行人缓缓走过。镜头沿街道缓慢向前跟拍。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/3-3a.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "3-3b",
+      "seconds": 4,
+      "first_frame_prompt": "重庆夜晚江边步道，暖黄色路灯倒映在江面上，波光粼粼，远处是洪崖洞方向的灯火轮廓。夜景，卡通电影感，蓝色调与暖黄对比。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：江面波光粼粼晃动，路灯倒影摇曳，远处灯火一闪一闪。镜头缓慢横向平移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-3b.jpg",
+      "prompt": "画面中：江面波光粼粼晃动，路灯倒影摇曳，远处灯火一闪一闪。镜头缓慢横向平移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/3-3b.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "3-3c",
+      "seconds": 4,
+      "first_frame_prompt": "特写镜头：一家重庆老小店门面，褪色的木质招牌，门口挂着旧式门帘，橱窗里摆着陈列品。暖黄灯光，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，怀旧气息。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：门口的红色灯笼轻轻晃动，店内冒出丝丝热气，木质招牌微微晃动。镜头缓慢推近招牌。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-3c.jpg",
+      "prompt": "画面中：门口的红色灯笼轻轻晃动，店内冒出丝丝热气，木质招牌微微晃动。镜头缓慢推近招牌。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/3-3c.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "3-5a",
+      "seconds": 4,
+      "first_frame_prompt": "重庆街角转景，斑驳的老墙与爬满绿藤的电线杆，阳光从建筑缝隙洒下形成光斑。午后光线，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：电线杆上的绿藤随微风摇曳，地面光斑缓缓移动。镜头固定机位轻微摇动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-5a.jpg",
+      "prompt": "画面中：电线杆上的绿藤随微风摇曳，地面光斑缓缓移动。镜头固定机位轻微摇动。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/3-5a.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "3-5b",
+      "seconds": 4,
+      "first_frame_prompt": "特写镜头：一块有趣的中文店铺招牌，字体古朴，招牌下方是店铺屋檐和红灯笼。暖光，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：红灯笼摇晃，暖光随之闪烁。镜头缓慢上摇。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-5b.jpg",
+      "prompt": "画面中：红灯笼摇晃，暖光随之闪烁。镜头缓慢上摇。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/3-5b.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "3-5d",
+      "seconds": 4,
+      "first_frame_prompt": "特写镜头：亚洲女孩用筷子夹起一碗热气腾腾的重庆小面，面条在筷子间微微颤动，汤面泛着红油光泽。暖色调，3D卡通风格，立体卡通渲染，食物造型圆润诱人。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：筷子夹起一筷面条微微颤动，汤面热气缓缓升腾。镜头固定，浅景深。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-5d.jpg",
+      "prompt": "画面中：筷子夹起一筷面条微微颤动，汤面热气缓缓升腾。镜头固定，浅景深。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/3-5d.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "4-1",
+      "seconds": 12,
+      "first_frame_prompt": "重庆老街重复出现的空镜，同样角度的青石板路和小店，但画面明显偏冷偏暗，像是记忆或回溯。冷调滤镜，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，略带压抑。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：街上的行人稀疏走过，灯笼在冷色风里轻晃。镜头缓慢后退。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/4-1.jpg",
+      "prompt": "画面中：街上的行人稀疏走过，灯笼在冷色风里轻晃。镜头缓慢后退。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/4-1.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "5-3",
+      "seconds": 6,
+      "first_frame_prompt": "俯拍视角：一部手机放在木桌上，屏幕显示搜索页面，手指向上滑动屏幕。屏幕光映在手指上。室内暖光，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：一根卡通手指向上滑动屏幕，页面内容随之滚动，屏幕光闪动。俯拍视角，镜头固定。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/5-3.jpg",
+      "prompt": "画面中：一根卡通手指向上滑动屏幕，页面内容随之滚动，屏幕光闪动。俯拍视角，镜头固定。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/5-3.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "5-5",
+      "seconds": 6,
+      "first_frame_prompt": "2005年北京奥体中心清晨全景，巨大椭圆形体育场建筑外景，广场上聚集大量参与健步走的人群，密集的伞状遮阳。清晨阳光，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，历史感。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：广场上的人群缓慢走动，密集的遮阳伞轻轻晃动，晨光缓缓变化。镜头缓慢升高俯视。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/5-5.jpg",
+      "prompt": "画面中：广场上的人群缓慢走动，密集的遮阳伞轻轻晃动，晨光缓缓变化。镜头缓慢升高俯视。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/5-5.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "6-4",
+      "seconds": 10,
+      "first_frame_prompt": "特写低角度：亚洲女性的运动鞋在户外步道上迈出大步，脚掌落地清晰，尘土轻微扬起。清晨侧光，3D卡通动画风格，立体卡通渲染，动感，力量感。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：卡通运动鞋迈出大步重重落地，尘土轻轻扬起，脚随即回弹。镜头跟随脚步横移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/6-4.jpg",
+      "prompt": "画面中：卡通运动鞋迈出大步重重落地，尘土轻轻扬起，脚随即回弹。镜头跟随脚步横移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/6-4.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "7-1a",
+      "seconds": 8,
+      "first_frame_prompt": "清晨 university 操场空旷全景，红色塑胶跑道在晨光中延伸，远处有零星晨跑者。柔和晨雾，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，安静开阔。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：远处几名晨跑者沿着跑道缓慢移动，晨雾在跑道上空缓缓飘散。镜头缓慢横移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/7-1a.jpg",
+      "prompt": "画面中：远处几名晨跑者沿着跑道缓慢移动，晨雾在跑道上空缓缓飘散。镜头缓慢横移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/7-1a.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "7-1b",
+      "seconds": 8,
+      "first_frame_prompt": "特写镜头：一双白色运动鞋整齐摆放在室内地板上，晨光从侧面照亮鞋面材质纹理。柔光，3D卡通风格，立体卡通渲染，圆润造型，极简。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：阳光角度缓缓变化，鞋面高光随之移动，窗外影子轻轻晃动。镜头缓慢推近。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/7-1b.jpg",
+      "prompt": "画面中：阳光角度缓缓变化，鞋面高光随之移动，窗外影子轻轻晃动。镜头缓慢推近。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/7-1b.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "7-3a",
+      "seconds": 8,
+      "first_frame_prompt": "大学化学实验室内部，试剂瓶、玻璃量筒、电子天平整齐排列在实验台上，冷白色灯光反射在玻璃器皿上。3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，冷静洁净。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：灯光在玻璃器皿上的反光缓缓流动，瓶中液体轻微晃动。镜头缓慢横向扫过实验台。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/7-3a.jpg",
+      "prompt": "画面中：灯光在玻璃器皿上的反光缓缓流动，瓶中液体轻微晃动。镜头缓慢横向扫过实验台。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/7-3a.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "7-3b",
+      "seconds": 8,
+      "first_frame_prompt": "教室内景背面视角：几名学生安静坐着听课，桌上摊开笔记本和课本，窗边透进午后阳光。3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：学生翻动笔记、笔尖移动，讲台前身影缓缓走动，阳光里尘埃浮动。镜头从后排缓慢推向讲台方向。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/7-3b.jpg",
+      "prompt": "画面中：学生翻动笔记、笔尖移动，讲台前身影缓缓走动，阳光里尘埃浮动。镜头从后排缓慢推向讲台方向。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/7-3b.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "8-2a",
+      "seconds": 6,
+      "first_frame_prompt": "特写镜头：实验室电子天平显示屏上的数字正在跳动变化，显示微小的精确数值。绿色背光数码管清晰可见。3D卡通风格，立体卡通渲染，圆润造型。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：显示屏上的数字不断跳动变化。镜头固定，浅景深。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/8-2a.jpg",
+      "prompt": "画面中：显示屏上的数字不断跳动变化。镜头固定，浅景深。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/8-2a.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "8-2b",
+      "seconds": 6,
+      "first_frame_prompt": "特写镜头：玻璃量筒和滴定管中的透明液体，细长的液柱停在刻度线上，玻璃表面折射出实验室灯光。3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，精密感。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：一滴液体沿滴定管缓缓下落，量筒液面轻微晃动。镜头缓慢环绕。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/8-2b.jpg",
+      "prompt": "画面中：一滴液体沿滴定管缓缓下落，量筒液面轻微晃动。镜头缓慢环绕。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/8-2b.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "8-2c",
+      "seconds": 6,
+      "first_frame_prompt": "特写俯拍：手写实验记录本的纸页，字迹工整的表格与数据，旁边放着笔。暖白台灯，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：笔尖在纸上书写，笔迹一行行出现，书页被轻轻翻动。镜头缓慢下移扫过纸面。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/8-2c.jpg",
+      "prompt": "画面中：笔尖在纸上书写，笔迹一行行出现，书页被轻轻翻动。镜头缓慢下移扫过纸面。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/8-2c.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "9-2a",
+      "seconds": 6,
+      "first_frame_prompt": "傍晚阴天的城市步道，一个人的背影独自向前行走，身影拉长，步幅平稳。画面偏暗偏冷，氛围安静略带孤独。3D卡通动画风格，立体卡通渲染，电影级构图。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：卡通女孩的背影向前行走，影子在地面拉长，衣角被风轻摆，路灯亮起暖光。镜头在后方缓慢跟拍。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/9-2a.jpg",
+      "prompt": "画面中：卡通女孩的背影向前行走，影子在地面拉长，衣角被风轻摆，路灯亮起暖光。镜头在后方缓慢跟拍。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/9-2a.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "9-2b",
+      "seconds": 6,
+      "first_frame_prompt": "侧面剪影镜头：亚洲女生在石阶上拾级而上，逆光轮廓，天空泛着黄昏前的橘粉色。逆光剪影，3D卡通动画风格，立体卡通渲染，电影级构图。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：卡通女孩拾级而上，逆光轮廓的光晕缓缓流动，头发与衣角被风吹起。镜头固定在侧方。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/9-2b.jpg",
+      "prompt": "画面中：卡通女孩拾级而上，逆光轮廓的光晕缓缓流动，头发与衣角被风吹起。镜头固定在侧方。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/9-2b.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "9-3",
+      "seconds": 6,
+      "first_frame_prompt": "俯拍特写：运动鞋和地面交替接触的稳定节奏，路面纹理清晰，步伐均匀。柔和自然光，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，节奏舒缓。这是一段视频的第一帧构图，画面静止",
+      "motion_prompt": "画面中：卡通运动鞋与地面交替接触，节奏均匀稳定。镜头正上方固定。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/9-3.jpg",
+      "prompt": "画面中：卡通运动鞋与地面交替接触，节奏均匀稳定。镜头正上方固定。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
+      "first_frame_local": "frames/9-3.jpg",
+      "clean_done": true
+    }
+  ]
+}
