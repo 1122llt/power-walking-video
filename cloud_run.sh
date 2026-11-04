@@ -20,7 +20,7 @@ fi
 
 # 跑生成守护（1.6 小时一轮，3 路并发，短镜头优先）
 echo ">> 开始生成…"
-python scripts/guardian.py --cfg manifest.json --out ../output --hours 0.4 --probe 12 --workers 3
+python scripts/guardian.py --cfg manifest.json --out ../output --hours 5 --probe 12 --workers 3
 
 cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
 cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
