@@ -18,9 +18,20 @@ else
   python scripts/upload_frames.py
 fi
 
-# 跑生成守护（1.6 小时一轮，3 路并发，短镜头优先）
+
+# 后台同步日志与产出到仓库，方便随时查看进度
+(
+  while true; do
+    cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
+    git add -A scripts/logs.txt output/ 2>/dev/null || true
+    git commit -q -m "chore: 进度同步 $(date -u +%H:%M)" 2>/dev/null && git push -q 2>/dev/null
+    sleep 600
+  done
+) &
+
+# 跑生成守护（5 小时一轮，3 路并发，短镜头优先）
 echo ">> 开始生成…"
-python scripts/guardian.py --cfg manifest.json --out ../output --hours 5 --probe 12 --workers 3
+python scripts/guardian.py --cfg manifest.json --out ../output --hours 5 --probe 15 --workers 2
 
 cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
 cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
