@@ -18,7 +18,7 @@ from datetime import datetime
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(BASE, "素材AI")
 LOG = os.path.join(BASE, "生成日志.txt")
-AGNES = os.path.join(BASE, "agnes_video.py")
+AGNES = os.path.expanduser("~/.workbuddy/skills/agnes-video/scripts/agnes_video.py")
 PY = sys.executable
 
 
@@ -113,8 +113,11 @@ def main():
     aspect = cfg["meta"]["aspect"]
     targets = args.only if args.only else list(shots.keys())
     targets = [t for t in targets if t in shots]
-    # 短镜头优先：实测 4-8 秒的镜头能排上队，10/12 秒的反复 503
-    targets.sort(key=lambda t: (shots[t].get("seconds", 6), t))
+    # 优先级：开场与结尾的镜头先做（观众最先/最后看到的），其余按镜头时长从短到长
+    # （实测 4-8 秒的镜头更容易排上队，10/12 秒反复 503）
+    PRIO = ["1-1", "1-3a", "1-3b", "1-3c", "2-1", "9-3", "9-2a", "9-2b"]
+    targets.sort(key=lambda t: (0, PRIO.index(t)) if t in PRIO
+                 else (1, shots[t].get("seconds", 6), t))
 
     os.makedirs(OUT_DIR, exist_ok=True)
 
