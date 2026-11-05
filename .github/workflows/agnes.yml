@@ -39,14 +39,6 @@ jobs:
       - name: 开始生成
         run: bash cloud_run.sh
 
-      - name: 把产出提交回仓库
-        run: |
-          git config user.name "Agnes Bot"
-          git config user.email "agnes-bot@users.noreply.github.com"
-          git add -A output/ || true
-          git commit -m "chore: 更新产出 $(date -u +%Y-%m-%d_%H:%M)" || true
-          git push || echo "推送失败，可从 Artifacts 下载"
-
       - name: 打包产出供下载
         uses: actions/upload-artifact@v4
         with:
@@ -55,3 +47,14 @@ jobs:
             output/
             scripts/logs.txt
           retention-days: 60
+
+      - name: 把产出提交回仓库
+        run: |
+          git config --global --add safe.directory '*'
+          git config user.name "Agnes Bot"
+          git config user.email "agnes-bot@users.noreply.github.com"
+          git add -A output/ scripts/logs.txt 2>/dev/null || true
+          git commit -m "chore: 更新产出 $(date -u +%Y-%m-%d_%H:%M)" || true
+          git push --force || echo "推送失败，可从 Artifacts 下载"
+        env:
+          GIT_TERMINAL_PROMPT: 0
