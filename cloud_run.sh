@@ -20,11 +20,13 @@ fi
 
 
 # 后台同步日志与产出到仓库，方便随时查看进度
+# GIT_TERMINAL_PROMPT=0 防止 git push 卡住等密码（那会把整个 job 挂到超时）
+export GIT_TERMINAL_PROMPT=0
 (
   while true; do
     cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
     git add -A scripts/logs.txt output/ 2>/dev/null || true
-    git commit -q -m "chore: 进度同步 $(date -u +%H:%M)" 2>/dev/null && git push -q 2>/dev/null
+    git commit -q -m "chore: 进度同步 $(date -u +%H:%M)" 2>/dev/null && git push -q --force 2>/dev/null
     sleep 600
   done
 ) &
