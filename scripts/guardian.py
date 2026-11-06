@@ -129,8 +129,19 @@ def main():
     deadline = time.time() + args.hours * 3600
     done, failed = [], []
 
+    # 完成记录：output/ 每次 runner 重新 checkout 会被清空，
+    # 靠这个文件记住哪些镜头已经出过，避免重复排队
+    done_file = os.path.join(BASE, "done.json")
+    done_set = set()
+    if os.path.isfile(done_file):
+        try:
+            with open(done_file, encoding="utf-8") as f:
+                done_set = set(json.load(f))
+        except Exception:
+            done_set = set()
+
     while time.time() < deadline:
-        pending = [t for t in targets if t not in done]
+        pending = [t for t in targets if t not in done and t not in done_set]
 
         # 已存在文件也算完成（--force 时不算，因为要覆盖重生成）
         if not args.force:
@@ -138,6 +149,7 @@ def main():
                 p = os.path.join(OUT_DIR, f"{t}.mp4")
                 if os.path.isfile(p) and os.path.getsize(p) > 1024:
                     done.append(t)
+                    done_set.add(t)
                     pending.remove(t)
                     log(f"{t} 已存在，计入完成")
 
@@ -194,12 +206,20 @@ def main():
                     ok, info = False, str(e)
                 if ok:
                     done.append(idx)
+                    done_set.add(idx)
                 else:
                     if isinstance(info, str) and info.startswith("NET:"):
                         net_err += 1
                     round_fail.append(idx)
 
         failed = round_fail
+
+        # 存完成记录，供下一轮（output/ 会被清空）参考
+        try:
+            with open(done_file, "w", encoding="utf-8") as f:
+                json.dump(sorted(done_set), f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            log(f"  ! 写完成记录失败 {str(e)[:60]}")
 
         # 网络整体不通：立刻停手，等下一轮，别持续轰接口
         if net_err >= max(1, args.workers):
