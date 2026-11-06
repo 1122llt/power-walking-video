@@ -53,8 +53,10 @@ jobs:
           git config --global --add safe.directory '*'
           git config user.name "Agnes Bot"
           git config user.email "agnes-bot@users.noreply.github.com"
-          git add -A output/ scripts/logs.txt 2>/dev/null || true
+          git add -A output/ scripts/logs.txt scripts/done.json 2>/dev/null || true
           git commit -m "chore: 更新产出 $(date -u +%Y-%m-%d_%H:%M)" || true
-          git push --force || echo "推送失败，可从 Artifacts 下载"
+          # 不能用 --force：会把这轮开始时的旧状态覆盖回去，丢掉之前累积的产出
+          git pull --rebase origin main --autostash || git pull --rebase origin main || true
+          git push origin HEAD:main || echo "推送失败，可从 Artifacts 下载"
         env:
           GIT_TERMINAL_PROMPT: 0
