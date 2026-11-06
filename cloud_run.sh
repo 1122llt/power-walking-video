@@ -25,8 +25,10 @@ export GIT_TERMINAL_PROMPT=0
 (
   while true; do
     cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
-    git add -A scripts/logs.txt output/ 2>/dev/null || true
-    git commit -q -m "chore: 进度同步 $(date -u +%H:%M)" 2>/dev/null && git push -q --force 2>/dev/null
+    git add -A scripts/logs.txt scripts/done.json output/ 2>/dev/null || true
+    git commit -q -m "chore: 进度同步 $(date -u +%H:%M)" 2>/dev/null
+    git pull --rebase origin main --autostash >/dev/null 2>&1 || true
+    git push -q origin HEAD:main 2>/dev/null || true
     sleep 600
   done
 ) &
