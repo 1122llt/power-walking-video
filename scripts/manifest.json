@@ -140,7 +140,7 @@
       "seconds": 4,
       "first_frame_prompt": "特写镜头：亚洲女孩用筷子夹起一碗热气腾腾的重庆小面，面条在筷子间微微颤动，汤面泛着红油光泽。暖色调，3D卡通风格，立体卡通渲染，食物造型圆润诱人。这是一段视频的第一帧构图，画面静止",
       "motion_prompt": "画面中：筷子夹起一筷面条微微颤动，汤面热气缓缓升腾。镜头固定，浅景深。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
-      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/3-5d.jpg",
+      "first_frame": "https://litter.catbox.moe/pi44bj.jpg",
       "prompt": "画面中：筷子夹起一筷面条微微颤动，汤面热气缓缓升腾。镜头固定，浅景深。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
       "first_frame_local": "frames/3-5d.jpg",
       "clean_done": true
