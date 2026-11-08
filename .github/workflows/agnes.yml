@@ -1,9 +1,9 @@
 name: Agnes 视频生成
 
 on:
-  schedule:
-    # 每 2 小时跑一次（UTC，第 17 分钟错开整点高峰）
-    - cron: '17 */2 * * *'
+  # 素材已全部产出（28/28），定时任务暂停，需要补做时在网页手动 Run workflow
+  # schedule:
+  #   - cron: '17 */2 * * *'
   workflow_dispatch:          # 也可以在网页上手动点运行
 
 concurrency:
