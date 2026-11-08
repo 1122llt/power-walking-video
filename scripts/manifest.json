@@ -187,7 +187,7 @@
     },
     {
       "idx": "7-1a",
-      "seconds": 8,
+      "seconds": 4,
       "first_frame_prompt": "清晨 university 操场空旷全景，红色塑胶跑道在晨光中延伸，远处有零星晨跑者。柔和晨雾，3D卡通动画风格，立体卡通渲染，圆润造型，色彩明快温暖，安静开阔。这是一段视频的第一帧构图，画面静止",
       "motion_prompt": "画面中：远处几名晨跑者沿着跑道缓慢移动，晨雾在跑道上空缓缓飘散。镜头缓慢横移。保持原图的3D卡通动画风格、配色与角色造型完全一致，动作自然流畅，画面连贯",
       "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/7-1a.jpg",
