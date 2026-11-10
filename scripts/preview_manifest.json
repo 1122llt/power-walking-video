@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "aspect": "16:9"
+  },
+  "shots": [
+    {
+      "idx": "P_A",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，头部小幅晃动，头发和衣领被风轻轻吹动，身后树叶在阳光里晃动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，头部小幅晃动，头发和衣领被风轻轻吹动，身后树叶在阳光里晃动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_A.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_A.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_B",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，胸口随呼吸轻微起伏，衣角被江风轻轻吹起，远处树叶摇动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，胸口随呼吸轻微起伏，衣角被江风轻轻吹起，远处树叶摇动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_B.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_B.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_C",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩坐在床边，嘴部轻微开合像在说话，眨眼，头发轻轻晃动，窗外树影在墙上晃动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩坐在床边，嘴部轻微开合像在说话，眨眼，头发轻轻晃动，窗外树影在墙上晃动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_C.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_C.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_D",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，头部轻微晃动，手中的笔在笔记本上轻轻移动，阳光里的灰尘缓缓飘动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，头部轻微晃动，手中的笔在笔记本上轻轻移动，阳光里的灰尘缓缓飘动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_D.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_D.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_E",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，微笑，头发被风轻轻吹动，背景人影缓缓走过。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，微笑，头发被风轻轻吹动，背景人影缓缓走过。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_E.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_E.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_FG",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩侧身坐在窗边，嘴部轻微开合像在说话，眨眼，肩膀随呼吸轻微起伏，窗外晚霞光线缓缓变化。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩侧身坐在窗边，嘴部轻微开合像在说话，眨眼，肩膀随呼吸轻微起伏，窗外晚霞光线缓缓变化。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_FG.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_FG.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_H",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，背景食堂人群缓缓走动，桌面餐盘微微反光。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，背景食堂人群缓缓走动，桌面餐盘微微反光。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_H.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_H.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_I",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩双手做出提问手势，嘴部轻微开合像在说话，眨眼，手指轻轻摆动，走廊尽头的光影缓缓移动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩双手做出提问手势，嘴部轻微开合像在说话，眨眼，手指轻轻摆动，走廊尽头的光影缓缓移动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_I.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_I.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_J",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，手指在笔记本电脑上轻轻点动，身后幕布轻轻晃动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，手指在笔记本电脑上轻轻点动，身后幕布轻轻晃动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_J.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_J.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_K",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩微微歪着头，嘴部轻微开合像在说话，眨眼，台灯光线轻微摇动，书页边缘轻轻颤动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩微微歪着头，嘴部轻微开合像在说话，眨眼，台灯光线轻微摇动，书页边缘轻轻颤动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_K.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_K.jpg",
+      "clean_done": true
+    },
+    {
+      "idx": "P_L",
+      "seconds": 6,
+      "prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，头发和外套被夜风轻轻吹动，江面波光缓缓闪动，路灯光晕微微摇曳。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：卡通女孩的嘴部轻微开合像在说话，眨眼，头发和外套被夜风轻轻吹动，江面波光缓缓闪动，路灯光晕微微摇曳。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，人物面部保持稳定不畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/frames/P_L.jpg",
+      "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/gha/scripts/frames/P_L.jpg",
+      "clean_done": true
+    }
+  ]
+}
