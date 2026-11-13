@@ -18,7 +18,7 @@ from datetime import datetime
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(BASE, "素材AI")
 LOG = os.path.join(BASE, "生成日志.txt")
-AGNES = os.path.expanduser("~/.workbuddy/skills/agnes-video/scripts/agnes_video.py")
+AGNES = os.path.join(BASE, "agnes_video.py")  # 用仓库自带的脚本；GitHub Actions 里没有本地 skills 目录
 PY = sys.executable
 
 
