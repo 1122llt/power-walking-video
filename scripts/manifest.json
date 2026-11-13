@@ -383,6 +383,46 @@
       "first_frame": "https://h.uguu.se/cVwKGZWy.jpg",
       "first_frame_local": "D:/RuanJian/AI/WorkBuddy Claw/闲聊/英语短视频/风格审核/预演首帧/L_江边.jpg",
       "clean_done": true
+    },
+    {
+      "idx": "3-4",
+      "seconds": 4,
+      "prompt": "画面中：阳光里的细小尘埃缓缓浮动，窗光角度缓慢变化，桌面光斑随之移动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：阳光里的细小尘埃缓缓浮动，窗光角度缓慢变化，桌面光斑随之移动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/solo_frames/3-4.jpg",
+      "first_frame_local": "solo_frames/3-4.jpg",
+      "clean_done": true,
+      "_checked_at": 0
+    },
+    {
+      "idx": "3-6",
+      "seconds": 4,
+      "prompt": "画面中：背景里模糊的行人缓缓走过，树叶在风中摇动，草地上的光斑缓慢移动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：背景里模糊的行人缓缓走过，树叶在风中摇动，草地上的光斑缓慢移动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/solo_frames/3-6.jpg",
+      "first_frame_local": "solo_frames/3-6.jpg",
+      "clean_done": true,
+      "_checked_at": 0
+    },
+    {
+      "idx": "6-5",
+      "seconds": 4,
+      "prompt": "画面中：窗外树影在地面缓缓移动，玻璃门上的反光流动，灯光微微闪动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：窗外树影在地面缓缓移动，玻璃门上的反光流动，灯光微微闪动。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/solo_frames/6-5.jpg",
+      "first_frame_local": "solo_frames/6-5.jpg",
+      "clean_done": true,
+      "_checked_at": 0
+    },
+    {
+      "idx": "9-4",
+      "seconds": 4,
+      "prompt": "画面中：远处灯火一闪一闪，江面波光缓慢流动，云层在夜空里缓缓飘过。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "motion_prompt": "画面中：远处灯火一闪一闪，江面波光缓慢流动，云层在夜空里缓缓飘过。镜头固定不动。保持原图的3D卡通动画风格、配色与角色造型完全一致，画面中的人物保持原位不动、不改变构图、不变形，不要出现新人物，不要出现脸或肢体的畸变，动作自然流畅，画面连贯",
+      "first_frame": "https://raw.githubusercontent.com/1122llt/power-walking-video/main/scripts/solo_frames/9-4.jpg",
+      "first_frame_local": "solo_frames/9-4.jpg",
+      "clean_done": true,
+      "_checked_at": 0
     }
   ]
 }
