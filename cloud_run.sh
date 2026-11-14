@@ -35,7 +35,7 @@ export GIT_TERMINAL_PROMPT=0
 
 # 跑生成守护（5 小时一轮，3 路并发，短镜头优先）
 echo ">> 开始生成…"
-python scripts/guardian.py --cfg manifest.json --out ../output --hours 5 --probe 15 --workers 2 --only 3-4 3-6 6-5 9-4
+python scripts/guardian.py --cfg manifest.json --out ../output --hours 5 --probe 15 --workers 2
 
 cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
 cp -f scripts/生成日志.txt scripts/logs.txt 2>/dev/null || true
